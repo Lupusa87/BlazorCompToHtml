@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace BlazorCompToHtml
 {
+    //Copied from aspnetcore repo
     public readonly struct ComponentRenderedText
     {
         public ComponentRenderedText(int componentId, IEnumerable<string> tokens)

@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace BlazorCompToHtml
 {
+    //Copied from aspnetcore repo
     public class HtmlRenderer : Renderer
     {
 
