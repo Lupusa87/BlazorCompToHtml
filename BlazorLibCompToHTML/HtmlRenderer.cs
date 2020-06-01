@@ -1,20 +1,20 @@
 ﻿using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.RenderTree;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components.RenderTree;
+using Microsoft.Extensions.Logging;
 
-namespace BlazorCompToHtml
+
+namespace BlazorLibCompToHTML
 {
-    //Copied from aspnetcore repo
-    public class HtmlRenderer : Renderer
-    {
 
+    //Copied from aspnetcore repo
+    internal class HtmlRenderer : Renderer
+    {
         private static readonly HashSet<string> SelfClosingElements = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
         {
             "area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"
@@ -269,5 +269,7 @@ namespace BlazorCompToHtml
         }
     }
 }
+
+
 
 

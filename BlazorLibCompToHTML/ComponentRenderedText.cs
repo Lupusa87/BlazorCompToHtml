@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlazorCompToHtml
+namespace BlazorLibCompToHTML
 {
     //Copied from aspnetcore repo
     public readonly struct ComponentRenderedText
