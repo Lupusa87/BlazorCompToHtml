@@ -13,6 +13,6 @@ Please send [email](mailto:VakhtangiAbashidze@gmail.com) if you consider to **hi
 
 
 
-If you want for any reason to get html representation from Blazor Component (built dinamically using RenderTree) or RenderFragment you can use this repo.
+If you want for any reason to get html representation from any Blazor Component (built dynamically using RenderTreeBuilder) or RenderFragment you can use this repo.
 
 Library gets html from RenderFragment, blazor app demonstrates how easy it can be consumed.
