@@ -10,3 +10,9 @@ Please send [email](mailto:VakhtangiAbashidze@gmail.com) if you consider to **hi
 
 
 ![](https://placehold.it/15/ffffff/000000?text=+)  
+
+
+
+If you want for any reason to get html representation from Blazor Component (built dinamically using RenderTree) or RenderFragment you can use this repo.
+
+Library gets html from RenderFragment, blazor app demonstrates how easy it can be consumed.
